@@ -24,7 +24,7 @@ This setup demonstrates how the **choice of imputation method** can significantl
    - Median Imputation  
    - Linear Regression Imputation  
    - Non-linear Regression Imputation  
-3. Evaluate **listwise deletion** as a baseline.  
+3. Evaluate **listwise deletion**.  
 4. Analyze the impact of each method on **classification metrics**: accuracy, precision, recall, F1-score.  
 5. Recommend the best strategy for handling missing data based on both metrics and conceptual understanding.
 
