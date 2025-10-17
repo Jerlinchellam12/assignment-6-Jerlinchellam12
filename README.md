@@ -29,9 +29,40 @@ This setup demonstrates how the **choice of imputation method** can significantl
 5. Recommend the best strategy for handling missing data based on both metrics and conceptual understanding.
 
 ---
+## Requirements
+See `requirements.txt`. Minimal setup includes:
+
+- `pandas`
+- `numpy`
+- `scikit-learn`
+
+---
+
+## Usage
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the notebook or your main script:
+   
+```bash
+jupyter notebook solution.ipynb
+# or
+python solution.py
+```
+---
+
+## Project Structure
+solution.ipynb       # Main workflow
+requirements.txt     # Project dependencies
+UCI_Credit_Card.csv  # The dataset
+
+---
 
 ## Dataset and Methodology
-- The dataset contains **24 features** and missing values in some of the records.  
+- The dataset contains **24 features** and we add missing values in some of it.  
 - Missing data handling strategies:
   - **Dataset A (Median Imputation):** Fill missing values with the median.  
   - **Dataset B (Linear Regression Imputation):** Predict missing values using linear regression.  
@@ -41,7 +72,6 @@ This setup demonstrates how the **choice of imputation method** can significantl
 - **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, Confusion Matrix.
 
 ---
-
 
 **Observations:**
 - Imputation methods retain **all data** while maintaining similar classification performance.  
