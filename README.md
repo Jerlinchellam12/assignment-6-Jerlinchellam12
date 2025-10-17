@@ -38,10 +38,6 @@ This setup demonstrates how the **choice of imputation method** can significantl
   - **Dataset C (Non-Linear Regression Imputation):** Predict missing values using a non-linear regression model.  
   - **Dataset D (Listwise Deletion):** Remove all rows with missing values.  
 
-- **Training/Test Split:**
-  - Datasets A, B, C: Train = 20,592 rows, Test = 6,000 rows  
-  - Dataset D: Train = 20,592 rows, Test = 5,148 rows (852 rows lost)  
-
 - **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, Confusion Matrix.
 
 ---
@@ -66,6 +62,6 @@ This setup demonstrates how the **choice of imputation method** can significantl
 ---
 
 ## Conclusion
-- **Best Strategy:** Regression-based imputation, preferably **non-linear regression**, for handling missing data.  
+- **Best Strategy:** Regression-based imputation, for handling missing data.  
 - Balances **classification performance** and **data integrity**.  
 - Ensures the model can utilize **all available information** while maintaining statistical consistency.
