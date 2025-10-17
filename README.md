@@ -55,9 +55,10 @@ python solution.py
 ---
 
 ## Project Structure
-solution.ipynb       # Main workflow
-requirements.txt     # Project dependencies
-UCI_Credit_Card.csv  # The dataset
+
+- solution.ipynb       # Main workflow
+- requirements.txt     # Project dependencies
+- UCI_Credit_Card.csv  # The dataset
 
 ---
 
